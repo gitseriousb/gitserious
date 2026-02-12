@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+video {
+    width: 400px;  /* Adjust size here */
+    height: 400px; /* This makes it square */
+    object-fit: cover; /* Ensures video fills the square without stretching */
+    border: 5px solid #333;
+}
+
+.custom-text {
+    font-family: 'Bungee', cursive; /* Your custom font */
+    font-size: 24px;
+    margin-top: 20px;
+}
