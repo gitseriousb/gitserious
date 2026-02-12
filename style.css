@@ -11,13 +11,11 @@ body {
     text-align: center;
 }
 
-.square-image {
-    width: 400px;
-    height: 400px;
-    object-fit: cover; /* This crops the photo into a square without squishing it */
-    border: 0px solid #333;
-    border-radius: 10px; /* Optional: adds slightly rounded corners */
-}
+video {
+    width: 400px;  /* Adjust size here */
+    height: 400px; /* This makes it square */
+    object-fit: cover; /* Ensures video fills the square without stretching */
+    border: 5px solid #333;
 }
 
 .custom-text {
