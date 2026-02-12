@@ -15,7 +15,7 @@ body {
     width: 400px;
     height: 400px;
     object-fit: cover; /* This crops the photo into a square without squishing it */
-    border: 5px solid #333;
+    border: 0px solid #333;
     border-radius: 10px; /* Optional: adds slightly rounded corners */
 }
 }
